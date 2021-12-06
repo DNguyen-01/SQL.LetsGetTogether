@@ -1,0 +1,1 @@
+SELECT COUNT (Students), Country FROM Students GROUP BY Country ORDERED BY COUNT (Students) DESC WHERE Students > 10;    
